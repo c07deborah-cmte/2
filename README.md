@@ -1,2 +1,21 @@
 # 2
 numeros
+n1 = int(input('digite um numero: '))
+n2 = int(input('digite outro numero: '))
+soma = (n1) + (n2)
+print('a soma entre {} e {} é {}'.format(n1, n2, soma))
+
+#(soma+) (subtração-) (multiplicação*) (divisão/) (divisão inteira//) (resto da divisão%) (potência**)
+#ordem: 1()  2**  3(*, /, //, %) 4(+, -)
+
+n = str(input('digite um numero: '))
+print(n)
+
+n = float(input('digite um numero: '))
+print(n)
+
+n = int(input('digite um numero: '))
+print(n)
+
+n = bool(input('digite um numero: '))
+print(n)
